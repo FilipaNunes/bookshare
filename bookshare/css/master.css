@@ -107,6 +107,33 @@ article.main > section.main-page{
   float: left;
 }
 
+article.main > section.search{
+	width: 100%;
+	padding-right: 1%;
+}
+
+.search>table>tbody>tr>th {
+	border-collapse: collapse;
+	background-color: rgba(52, 70, 92, .5);
+}
+
+.search>table>tbody>tr>td {
+	border-collapse: collapse;
+	background-color: rgba(71, 95, 124, 0);
+	padding: 0px;
+}
+
+input[type="text"], textarea {
+	background-color: rgba(71, 95, 124, .7);
+	border: 10px rgba(71, 95, 124, .7);
+	width: 100%;
+	color: white;
+	font-size: 16px;
+	font-family: 'Segoe UI';
+	text-align: center;
+	padding: 5px;
+}
+
 article.main>.chapter-list {
   width: 69%;
   padding-right: 1%;
