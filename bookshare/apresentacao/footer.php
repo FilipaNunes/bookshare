@@ -1,11 +1,14 @@
 <?php
-function display_footer(){
+  function display_footer(){
 
-echo "
-<footer>
-    <p>&copy; Filipa Coelho Nunes & José Pedro Vieira Gomes - 2017</p>
-</footer>
-";
+    echo "
+    <footer>
+      <p>&copy; Filipa Coelho Nunes & José Pedro Vieira Gomes - 2017</p>
+    </footer>
+    ";
 
+    if(isset($conn)) {
+      pg_close($conn);
+    }
 }
 ?>
